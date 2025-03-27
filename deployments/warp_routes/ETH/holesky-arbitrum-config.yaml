@@ -1,0 +1,18 @@
+tokens:
+  - chainName: holesky
+    standard: EvmHypNative
+    decimals: 18
+    symbol: ETH
+    name: Ether
+    addressOrDenom: "0xEb417D83fFf27cE18681B70c789CB773C5a22fC4"
+    connections:
+      - token: ethereum|arbitrumsepolia|0x0E49F74138786042F883208AE3D1DF2013ae5BC7
+  - chainName: arbitrumsepolia
+    standard: EvmHypNative
+    decimals: 18
+    symbol: ETH
+    name: Ether
+    addressOrDenom: "0x0E49F74138786042F883208AE3D1DF2013ae5BC7"
+    connections:
+      - token: ethereum|holesky|0xEb417D83fFf27cE18681B70c789CB773C5a22fC4
+
