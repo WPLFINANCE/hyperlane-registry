@@ -1,5 +1,105 @@
 # @hyperlane-xyz/registry
 
+## 11.3.0
+
+### Minor Changes
+
+- 3f20f57: Added token metadata for first batch of soon depl
+- b7183d4: Adding SPICE metadata.
+- 812f349: Change oUSDT tokens standard from XERC20 to VSXERC20 and remove ink connection
+
+## 11.2.0
+
+### Minor Changes
+
+- 263494c: updated the CDX route to add the sophon extension
+- ea5247e: Update default ISMs with new validators for infinityvm, plume, fuse.
+- bf65725: Extending cbBTC with Base.
+- 9bd7090: Add coingeckoIDs for a set of warp route configs
+- 37a6493: Updated the ubtc route to include the soneium extension
+- 6346eb9: Add Superseed ext to base, arbitrum, optimism, solana, ink for USDC
+
+### Patch Changes
+
+- 1eb8c79: Set forma IGP to 0x0.
+
+## 11.1.0
+
+### Minor Changes
+
+- 6aa6d64: Remove totalSupply from warp route deployments
+
+## 11.0.0
+
+### Major Changes
+
+- 987918c: Update to latest major hyperlane SDK v9.0.0. Includes support for "starknet" ProtocolType.
+
+### Minor Changes
+
+- 243040f: Add authToken parameter to getRegistry function
+- 4abd4ec: feat: authenticated github registry
+- ae39e7b: Add oUSDT coingeckoId
+
+## 10.15.0
+
+### Minor Changes
+
+- 0ccd510: Deploy to infinityvm, plume.
+- 044a7dd: Add Turtle warp routes config
+
+### Patch Changes
+
+- e9427b2: Update GPS to latest deployment to fix totalSupply
+
+## 10.14.0
+
+### Minor Changes
+
+- 14e800b: Add warp deployments artifacts for enzoBTC/bsc-hyperevm and stBTC/bsc-hyperevm
+
+### Patch Changes
+
+- 176ece4: Remove Lorenzo routes default ISM config
+
+## 10.13.0
+
+### Minor Changes
+
+- 0e6f08e: Add GPS configs
+
+### Patch Changes
+
+- 554b99d: oUSDT warp route artifacts
+
+## 10.12.0
+
+### Minor Changes
+
+- 961012e: Update GithubRegistry to be able to parse branch from URI.
+- 5234258: Refactor the getRegistry function to use an object parameter
+
+## 10.11.1
+
+### Patch Changes
+
+- 679bff6: Add missing ETH/base-ethereum-lumiaprism deploy config
+
+## 10.11.0
+
+### Minor Changes
+
+- 5cca0bb: Deploy to new testnets: carrchaintestnet, somniatestnet, infinityvmmonza.
+- c478f87: Add ETH/base-ethereum-lumiaprism warp route deployment
+- 10d02e5: Add file path string validation
+- beb15a6: adds taraxa mainnet support
+
+## 10.10.0
+
+### Minor Changes
+
+- c093d06: Add `branch` to getRegistry to allow reading of specific commit/branches. Also up the SDK version
+
 ## 10.9.0
 
 ### Minor Changes
